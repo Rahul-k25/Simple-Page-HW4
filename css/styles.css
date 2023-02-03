@@ -1,0 +1,214 @@
+.container{
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+    background-image: url('../img/background.png');
+}
+.header-container{
+    display: flex;
+    font-family: verdana;   
+    color: white;
+    background-color: rgba(0, 0, 0, 0.412);
+}
+.header-title{
+    margin: 20px 0 19px 81px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.header-title:hover{
+    color: #3cb878;
+    cursor: pointer;
+}
+.logo-icons{
+    margin: 17px 50px 18px 735px;
+    display: flex;
+}
+.logo-icon-calculator{
+    width: 22px;
+    height: 24px;
+    margin-right: 28px;
+    background: url('../img/icons.png') -31px 0;
+}
+.logo-icon-calculator:hover{
+    background: url('../img/icons.png') -2px 0;
+    cursor: pointer;
+}
+.logo-icon-message{
+    width: 28px;
+    height: 24px;
+    margin-right: 28px;
+    background: url('../img/icons.png') -101px 0;
+}
+.logo-icon-message:hover{
+    background: url('../img/icons.png') -63px 0;
+    cursor: pointer;
+}
+.logo-icon-compass{
+    width: 22px;
+    height: 25px;
+    background: url('../img/icons.png') -168px 0;
+}
+.logo-icon-compass:hover{
+    background: url('../img/icons.png') -138px 0;
+    cursor: pointer;
+}
+.login-message{
+    margin-top: 24px;
+    margin-bottom: 19px;
+    font-size: 14px;
+}
+.login-message-green{
+    color: #3cb878;
+    text-decoration: none;
+}
+.login-message-green:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.form{
+    width: 444px;
+    margin: 65px 460px;
+    background-color: white;
+    padding-top: 29px;
+    padding-bottom: 32px;
+    border-radius: 10px;
+    font-family: verdana;   
+}
+.form-head{
+    display: flex;
+    margin-bottom: 16px;
+}
+.shape{
+    width: 18px;
+    height: 18px;
+    margin-right: 42px;
+    background-color: #3cb878;
+}
+.signup-text{
+    color: #434343;
+    font-size: 19px;
+    padding-right: 205px;
+}
+.login-text{
+    font-size: 14px;
+    padding-top: 4px;
+    color: #3cb878;
+    text-decoration: none;
+}
+.login-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.form-button{
+    width: 157px;
+    padding: 13px 17px 13px 20px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    transition: all 0.6s ease-out;
+}
+.form-button:hover{
+    opacity: 0.8;
+}
+
+.facebook{
+    margin: 15px 0 30px 62px;
+    background-color: #305db8;
+}
+.facebook:active{
+    background-color: #0055ff;
+}
+.google{
+    background-color: #df4a32;
+}
+.google:active{
+    background-color: #ff2200;
+}
+.button-line {
+    border-left: 1px solid black;
+    height: 28px;  
+    margin: 0 18px 0 17px;
+    opacity: 0.2;
+  }
+.form-seperator{
+    display: flex;
+    margin: 0 60px 18px 62px;
+    opacity: 0.4;
+}
+.horizontal-line{
+    width: 132px;
+    height: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 8px 0 3px;
+}
+.form-seperator-text{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.field-default{
+    width: 303px;
+    padding: 15px 0 15px 19px;
+    margin: 9px 60px 0 60px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+}
+.field-default::placeholder{
+    color: #bebebe;
+}
+
+.field-default:focus {
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.21);
+    background-color: var(--white);
+}
+.agree-checkbox{
+    appearance: none;
+    border: 1px solid rgba(0, 0, 0, .21);
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    margin: 19px 13px 25px 62px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agree-checkbox:after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f00C';
+    font-size: 15px;
+    color: #3cb878;
+    display: none;
+}
+.agree-checkbox:checked{
+    background-color: white;
+}
+.agree-checkbox:checked:after{
+    display: block;
+}
+
+.button-green{
+    width: 322px;
+    margin: 0 60px 0 62px;
+    padding: 17px 100px;
+    background-color: #3cb878;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    transition: all 0.4s ease-out;
+}
+.button-green:hover{
+    background-color: #1dce73;
+}
