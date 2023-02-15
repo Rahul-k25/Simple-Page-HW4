@@ -4,7 +4,7 @@
     margin: auto;
     background-image: url('../img/background.png');
 }
-.header-container{
+.head-container{
     display: flex;
     font-family: verdana;   
     color: white;
