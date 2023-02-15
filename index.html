@@ -10,24 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="header-container">
-          <a href="#" class="header-title"><h2>JOURNEY</h2></a>
-          <div class="logo-icons">
-            <a href="#"><div class="logo-icon-calculator"></div></a> 
-            <a href="#"><div class="logo-icon-message"></div></a> 
-            <a href="#"><div class="logo-icon-compass"></div></a> 
-          </div>
-          <div class="login-message">
-            <span>Welcome, </span
-            ><a href="#" class="login-message-green"><span>Log In</span></a><span> or </span>
-            <a href="#" class="login-message-green"><span>Sign Up</span></a>
-          </div>
+      <header class="header container">
+        <a href="#" class="header-title"><h2>JOURNEY</h2></a>
+        <div class="logo-icons">
+          <a href="#"><div class="logo-icon-calculator"></div></a> 
+          <a href="#"><div class="logo-icon-message"></div></a> 
+          <a href="#"><div class="logo-icon-compass"></div></a> 
+        </div>
+        <div class="login-message">
+          <span>Welcome, </span
+          ><a href="#" class="login-message-green"><span>Log In</span></a><span> or </span>
+          <a href="#" class="login-message-green"><span>Sign Up</span></a>
         </div>
       </header>
-      <main>
-        <div class="main-container">
+      <main class="main-content container">
           <div class="form">
             <div class="form-head">
               <div class="shape"></div>
@@ -58,11 +54,10 @@
                 required
               />
               <input type="checkbox" class="agree-checkbox" id="agree" required/>
-              <span>Agree our </span><span>Terms & Conditions</span>
+              <span>Agree our </span><a href="#" class="login-message-green"><span>Terms & Conditions</span></a>
               <button class="button-green">Create Account</button>
             </form>
           </div>
-        </div>
       </main>
     </div>
   </body>
