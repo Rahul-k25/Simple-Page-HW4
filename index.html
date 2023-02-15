@@ -10,56 +10,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-      <header class="header container">
-        <div class="header__title"><a href="#"class="header__title__journey">JOURNEY</a></div>
-        <div class="header__logos">
-          <a href="#" class="header__logos__icon"><div class="header__logos__icon calculator"></div></a> 
-          <a href="#" class="header__logos__icon"><div class="header__logos__icon message"></div></a> 
-          <a href="#" class="header__logos__icon"><div class="header__logos__icon compass"></div></a> 
-        </div>
-        <div class="header__login-message">
-          <span>Welcome, </span
-          ><a href="#" class="link-green"><span>Log In</span></a><span> or </span>
-          <a href="#" class="link-green"><span>Sign Up</span></a>
+    <div class="container">
+      <header>
+        <div class="header-container">
+          <a href="#" class="header-title"><h2>JOURNEY</h2></a>
+          <div class="logo-icons">
+            <a href="#"><div class="logo-icon-calculator"></div></a> 
+            <a href="#"><div class="logo-icon-message"></div></a> 
+            <a href="#"><div class="logo-icon-compass"></div></a> 
+          </div>
+          <div class="login-message">
+            <span>Welcome, </span
+            ><a href="#" class="login-message-green"><span>Log In</span></a><span> or </span>
+            <a href="#" class="login-message-green"><span>Sign Up</span></a>
+          </div>
         </div>
       </header>
-      <main class="main-content container">
+      <main>
+        <div class="main-container">
           <div class="form">
-            <div class="form__head">
+            <div class="form-head">
               <div class="shape"></div>
-              <span class="form__head__title">Sign Up</span>
-              <a href="#" class="form__head__login-link"><span>Log In</span></a>
+              <span class="signup-text">Sign Up</span>
+              <a href="#" class="login-text"><span>Log In</span></a>
             </div>
-            <button class="form__button facebook"><div class="fa-brands fa-facebook-f"></div><span class="button-line"></span>Facebook</button>
-            <button class="form__button google"><div class="fa-brands fa-google-plus-g"></div><span class="button-line"></span>Google</button>
-            <div class="form__seperator">
-                <span class="form__seperator__horizontal-line"></span>
-                <span class="form__seperator__text">or</span>
-                <span class="form__seperator__horizontal-line"></span>
+            <button class="form-button facebook"><div class="fa-brands fa-facebook-f"></div><span class="button-line"></span>Facebook</button>
+            <button class="form-button google"><div class="fa-brands fa-google-plus-g"></div><span class="button-line"></span>Google</button>
+            <div class="form-seperator">
+                <span class="horizontal-line"></span>
+                <span class="form-seperator-text">or</span>
+                <span class="horizontal-line"></span>
             </div>
             <form action="">
-              <input type="text" class="firstName form__field-default" placeholder="First Name" required/>
-              <input type="text" class="lastName form__field-default" placeholder="Last Name" required/>
-              <input type="email" class="email form__field-default" placeholder="Email" required/>
+              <input type="text" class="firstName field-default" placeholder="First Name" required/>
+              <input type="text" class="lastName field-default" placeholder="Last Name" required/>
+              <input type="email" class="email field-default" placeholder="Email" required/>
               <input
                 type="password"
-                class="password form__field-default"
+                class="password field-default"
                 placeholder="Choose Password"
                 required
               />
               <input
                 type="password"
-                class="confirmPassword form__field-default"
+                class="confirmPassword field-default"
                 placeholder="Confirm Password"
                 required
               />
-              <input type="checkbox" class="form__agree-checkbox" id="agree" required/>
-              <span>Agree our </span>
-              <a href="#" class="link-green"><span>Terms</span></a>
-                <span> & </span><a href="#" class="link-green"><span>Conditions</span></a>
-              <button class="form__button-green">Create Account</button>
+              <input type="checkbox" class="agree-checkbox" id="agree" required/>
+              <span>Agree our </span><span>Terms & Conditions</span>
+              <button class="button-green">Create Account</button>
             </form>
           </div>
+        </div>
       </main>
     </div>
   </body>
