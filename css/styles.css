@@ -16,63 +16,63 @@ body{
     color: white;
     background-color: rgba(0, 0, 0, 0.412);
 }
-.header-title{
+.header__title{
     margin: 20px 0 19px 81px;
+    flex-basis: 60%;
+}
+.header__title__journey{
     font-size: 20px;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    flex-basis: 60%;
 }
-.header-title:hover{
+.header__title__journey:hover{
     color: #3cb878;
     cursor: pointer;
 }
-.logo-icons{
+.header__logos{
     flex-basis: 15%;
     margin: 17px 0;
     display: flex;
 }
-.logo-icon-calculator{
+.header__logos__icon{
     width: 22px;
-    height: 24px;
+    height: 26px;
     margin-right: 28px;
+}
+.calculator{
     background: url('../img/icons.png') -31px 0;
 }
-.logo-icon-calculator:hover{
+.calculator:hover{
     background: url('../img/icons.png') -2px 0;
     cursor: pointer;
 }
-.logo-icon-message{
+.message{
     width: 28px;
-    height: 24px;
-    margin-right: 28px;
     background: url('../img/icons.png') -101px 0;
-    flex-basis: 25%;
 }
-.logo-icon-message:hover{
+.message:hover{
     background: url('../img/icons.png') -63px 0;
     cursor: pointer;
 }
-.logo-icon-compass{
-    width: 22px;
-    height: 25px;
+.compass{
     background: url('../img/icons.png') -168px 0;
 }
-.logo-icon-compass:hover{
+.compass:hover{
     background: url('../img/icons.png') -138px 0;
     cursor: pointer;
 }
-.login-message{
+.header__login-message{
     margin-top: 24px;
     margin-bottom: 19px;
     font-size: 14px;
+    flex-basis: 25%;
 }
-.login-message-green{
+.link-green{
     color: #3cb878;
     text-decoration: none;
 }
-.login-message-green:hover{
+.link-green:hover{
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -89,7 +89,7 @@ body{
     padding-bottom: 32px;
     border-radius: 10px;
 }
-.form-head{
+.form__head{
     display: flex;
 }
 .shape{
@@ -97,23 +97,23 @@ body{
     margin-right: 42px;
     background-color: #3cb878;
 }
-.signup-text{
+.form__head__title{
     color: #434343;
     font-size: 19px;
     padding-right: 205px;
 }
-.login-text{
+.form__head__login-link{
     font-size: 14px;
     padding-top: 4px;
     color: #3cb878;
     text-decoration: none;
 }
-.login-text:hover{
+.form__head__login-link:hover{
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 3px;
 }
-.form-button{
+.form__button{
     width: 157px;
     padding: 13px 17px 13px 20px;
     border-radius: 3px;
@@ -122,8 +122,9 @@ body{
     text-align: left;
     font-size: 16px;
     transition: all 0.6s ease-out;
+    cursor: pointer;
 }
-.form-button:hover{
+.form__button:hover{
     opacity: 0.8;
 }
 
@@ -146,20 +147,20 @@ body{
     margin: 0 18px 0 17px;
     opacity: 0.2;
   }
-.form-seperator{
+.form__seperator{
     display: flex;
     margin: 0 60px 18px 62px;
     opacity: 0.4;
 }
-.horizontal-line{
+.form__seperator__horizontal-line{
     width: 132px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     margin-bottom: 6px;
 }
-.form-seperator-text{
+.form__seperator__text{
     margin: 0 18px;
 }
-.field-default{
+.form__field-default{
     width: 303px;
     padding: 15px 0 15px 19px;
     margin: 9px 60px 0 60px;
@@ -167,17 +168,17 @@ body{
     border-radius: 2px;
     transition: all 0.5s ease-out;
 }
-.field-default::placeholder{
+.form__field-default::placeholder{
     color: #bebebe;
 }
 
-.field-default:focus {
+.form__field-default:focus {
     outline: none;
     border-radius: 3px;
     box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.21);
     background-color: var(--white);
 }
-.agree-checkbox{
+.form__agree-checkbox{
     appearance: none;
     border: 1px solid rgba(0, 0, 0, .21);
     border-radius: 3px;
@@ -190,7 +191,7 @@ body{
     justify-content: center;
 }
 
-.agree-checkbox:after{
+.form__agree-checkbox:after{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     content: '\f00C';
@@ -198,14 +199,14 @@ body{
     color: #3cb878;
     display: none;
 }
-.agree-checkbox:checked{
+.form__agree-checkbox:checked{
     background-color: white;
 }
-.agree-checkbox:checked:after{
+.form__agree-checkbox:checked:after{
     display: block;
 }
 
-.button-green{
+.form__button-green{
     width: 322px;
     margin: 0 60px 0 62px;
     padding: 17px 100px;
@@ -216,6 +217,6 @@ body{
     border-radius: 2px;
     transition: all 0.4s ease-out;
 }
-.button-green:hover{
+.form__button-green:hover{
     background-color: #1dce73;
 }
